@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=K2D:700');
+
+
+ center{
+  font-family: 'K2D', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: black;
+}
+
+.mandoo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+
+body {
+  background-image: url(https://media.giphy.com/media/6go5jGGJavgpG/giphy.gif);
+  background-size: cover;
+  background-repeat: repeat;
+  color: #39ff14;
+  margin: 0;
+  padding: 16px;
+}
+
+p {
+  font-size: 2em;
+  position: absolute;
+}
+p:first-child {
+  color: red;
+  top: 20%;
+  left: 5%;
+}
+p:nth-child(2) {
+  color: orange;
+  top: 30%;
+  left: 5%;
+}
+p:nth-child(3) {
+  color: yellow;
+  top: 40%;
+  left: 5%;
+}
+p:nth-child(4) {
+  color: green;
+  top: 50%;
+  left: 5%;
+}
+p:nth-child(5) {
+  color: blue;
+  top: 60%;
+  left: 5%;
+}
+p:nth-child(6) {
+  color: navy;
+  top: 70%;
+  left: 5%;
+}
+p:nth-child(7) {
+  color: purple;
+  top: 80%;
+  left: 5%;
+}
+p:nth-child(8) {
+  color: red;
+  top: 20%;
+  right: 5%;
+}
+
+p:nth-child(9) {
+  color: orange;
+  top: 30%;
+  right: 5%;
+}
+p:nth-child(10) {
+  color: yellow;
+  top: 40%;
+  right: 5%;
+}
+p:nth-child(11) {
+  color: green;
+  top: 50%;
+  right: 5%;
+}
+p:nth-child(12) {
+  color: blue;
+  top: 60%;
+  right: 5%;
+}
+p:nth-child(13) {
+  color: navy;
+  top: 70%;
+  right: 5%;
+}
+p:last-child {
+  color: purple;
+  top: 80%;
+  right: 5%;
+}
+
+
+a
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-family: 'K2D', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 6px;
+  border: 2px solid #fff;
+  font-size: 50px;
+  transition: 1s;
+  color: #39ff14;
+}
+a:hover
+{
+  color: #fff;
+
+}
+a span
+{
+  position: absolute;
+  transform: rotate(180deg);
+  width: 110%;
+  height: 340%;
+  transition: 0.8s;
+  z-index: -2;
+ }
+a span:nth-child(1)
+{
+  top: -800%;
+  left: -100%;
+}
+a:hover span:nth-child(1)
+{
+  top: 0%;
+  left: 0%;
+}
